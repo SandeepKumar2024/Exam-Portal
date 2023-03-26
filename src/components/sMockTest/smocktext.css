@@ -1,0 +1,51 @@
+
+.smocktest{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.instruction{
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid gray; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+
+.instruction h3{
+    text-align: center;
+    font-size: 28px;
+    color: red;
+}
+
+.instruction ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 22px;
+    color: rgb(90, 86, 86);
+}
+.instruction h4{
+    font-size: 26px;
+    color: rgb(64, 62, 62);
+}
+.instruction hr{
+    width: 500px;
+}
+.instruction button{
+    padding: 10px 20px;
+    font-size: 20px;
+    border: none;
+    width: 200px;
+    color: white;
+    background-color: rgb(77, 189, 85);
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,14 @@
+
+.footer{
+    width: 1400px;
+
+
+    
+}
+
+.links{
+    padding: 50px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+}

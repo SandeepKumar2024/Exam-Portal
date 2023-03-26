@@ -1,0 +1,167 @@
+.navbar {
+  background: #d9a7c7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fffcdc,
+    #d9a7c7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ width: 100%;
+ height: 100px;
+ position: sticky;
+ top: 0px;
+ z-index: 999;
+
+
+
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50%;
+    padding: 40px 20px ;
+}
+
+.left ul{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    list-style: none;
+
+
+}
+
+.left li{
+    cursor: pointer;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+
+    
+}
+
+.right ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.right .btn {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.right .btn:hover{
+    background-color: orange;
+    color: white;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 50px;
+    cursor: pointer;
+    position: relative;
+
+
+}
+
+.user img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+
+.smallContent{
+    position: absolute;
+    top: 90px;
+    left: -10px;
+    border: 1px solid rgb(230, 221, 221);
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: max-content;
+    background-color: #fefefe;
+    animation: animate 1s ease;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.5);
+    z-index: 999;
+    
+    
+}
+@keyframes animate {
+    from {top:40px;}
+    to{top:90px}
+    
+    
+}
+
+.smallContent ul{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+.smallContent ul li:hover{
+    color: orange;
+}
+
+
+.mock{
+    position: relative;
+    
+}
+
+.mockType{
+    position: absolute;
+    top: 10px;
+    left: -30px;
+    border: 1px solid rgb(221, 216, 216);
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    box-shadow: 10px 5px 10px rgba(0,0,0,0.5);
+    height: max-content;
+    z-index: 999;
+    animation: animateM 1s ease;
+    transform: translateY(20px);
+   
+}
+
+@keyframes animateM {
+    from {top:0px;}
+    to{top:10px}
+   
+    
+    
+}
+.mockType ul{
+    display: flex;
+    flex-direction: column;
+
+}
+.mockType ul li:hover{
+    color: orange;
+}
